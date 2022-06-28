@@ -1,0 +1,29 @@
+*{
+    background-color: aquamarine;
+}
+
+input{
+    width: 50%;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 400px;
+
+}
+
+#movies{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: auto; */
+    gap: 30px;
+    /* row-gap: 40px; */
+    border: 2px solid black;
+    
+}
+
+#movies > div{
+    border: 2px solid red;
+}
